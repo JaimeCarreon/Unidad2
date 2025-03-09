@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de comentarios del Blog de la Guía 
+Turística.">
+    <meta name="keywords" content="comentarios, blog, guía turística, opiniones">
+    <title>Comentarios - Blog Guía Turística</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+
+        header,
+        nav,
+        main,
+        aside,
+        footer {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #2980B9;
+        }
+
+        main section {
+            margin-bottom: 30px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-top: 10px;
+        }
+
+        form input,
+        form textarea {
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            margin-top: 15px;
+            padding: 10px;
+            background: #2980B9;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .comentario {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .comentario:last-child {
+            border-bottom: none;
+        }
+
+        aside {
+            background: #e8f4f8;
+            padding: 10px;
+        }
+
+        footer p {
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Comentarios del Blog</h1>
+    </header>
+    <nav>
+        <a href="blog.html">Inicio</a>
+        <a href="comentarios.html">Comentarios</a> 
+        <a href="../guiaTuristica/contacto.html">Contacto</a>
+        
+    </nav>
+    <main>
+        <section>
+            <h2>Deja tu Comentario</h2>
+            <form action="procesar_comentario.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="comentario">Comentario:</label>
+                <textarea id="comentario" name="comentario" rows="5" required></textarea>
+
+                <button type="submit">Enviar Comentario</button>
+            </form>
+        </section>
+        <section>
+            <h2>Comentarios Recientes</h2>
+            <div class="comentario">
+                <p><strong>Juan P&eacute;rez</strong> <em>01/03/2025</em></p>
+                <p>Excelente gu&iacute;a tur&iacute;stica, muy informativa y pr&aacute;ctica. Me encant&oacute; la secci&oacute;n de
+                    lugares de inter&eacute;s.</p>
+            </div>
+            <div class="comentario">
+                <p><strong>Mar&iacute;a Garc&iacute;a</strong> <em>28/02/2025</em></p>
+                <p>Muy buen contenido, la informaci&oacute;n es muy &uacute;til para planificar mi pr&oacute;xima
+                    visita a la ciudad.</p>
+            </div>
+            <div class="comentario">
+                <p><strong>Jaime Carre&oacute;n</strong> <em>04/03/2025</em></p>
+                <p>Me desperto el inter&eacute;s de visitar el Pueblo M&aacute;gico de Orizaba.</p>
+            </div>
+            <!-- Se pueden agregar más comentarios aquí -->
+        </section>
+    </main>
+    <aside>
+        <h3>Informaci&oacute;n Adicional</h3>
+        <p>Para m&aacute;s detalles sobre la gu&iacute;a tur&iacute;stica, visita nuestra p&aacute;gina de <a href="../guiaTuristica/contacto.html">Contacto</a> o
+            suscr&iacute;bete al bolet&iacute;n.</p>
+    </aside>
+    <footer>
+        <p>&copy; 2025 Gu&iacute;a Tur&iacute;stica de Orizaba. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

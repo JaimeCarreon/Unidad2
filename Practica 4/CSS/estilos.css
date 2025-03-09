@@ -1,0 +1,164 @@
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+a{
+    text-decoration: none;
+}
+
+aside,
+footer {
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #2980B9;
+}
+
+aside {
+    background: #e8f4f8;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Estilos para la landing page de Orizaba */
+#orizaba-header {
+    text-align: center;
+    background-color: #11354c;
+    color: white;
+    padding: 20px;
+}
+
+#orizaba-interes, #orizaba-deseo, #orizaba-accion {
+    padding: 20px;
+    text-align: center;
+}
+
+#orizaba-interes img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+#orizaba-deseo ul {
+    list-style: none;
+    padding: 0;
+}
+
+#orizaba-deseo li {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.orizaba-boton {
+    display: inline-block;
+    background-color: #f28e13;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.orizaba-boton:hover {
+    background-color: #c76b0e;
+}
+
+#orizaba-Guia, #orizaba-Lugares{
+    text-align: center;
+    background-color: #6e7f0d;
+    color: white;
+    padding: 20px;
+}
+
+#social-media {
+    text-align: center;
+
+
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#contacto{
+    text-align: left;
+    
+}
+
+#entrada{
+    text-align: left;
+}
+
+#imgTeleferico{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.mapa-boton {
+    display: inline-block;
+    background-color: #071757;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.mapa-boton:hover {
+    background-color: #06797f;
+}
+
+.palacio-boton {
+    display: inline-block;
+    background-color: #9cce07;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.palacio-boton:hover {
+    background-color: #fff200;
+}
+
+#asiBlog{
+    background-color: #fff;
+    border: none;
+}
